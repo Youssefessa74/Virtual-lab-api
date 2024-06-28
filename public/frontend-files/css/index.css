@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+
+.logo {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+
+.featured-image-outer {
+  position: absolute;
+  margin-left: -30%;
+  height: 200px;
+  overflow: hidden;
+  top: 0;
+  width: 60%;
+  transform: skew(-30deg, 0deg);
+}
+
+.featured-image-inner {
+  left: 140px;
+  position: absolute;
+  top: 0;
+  height: 140px;
+  width: 80%;
+  transform: skew(-70deg, 0deg);
+}
+
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  color: #852b08;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+  font-size: 17px;
+  ;
+}
+
+.topnav a:hover {
+  color: rgba(137, 234, 255, 0.74);
+}
+
+.dropdown {
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.div1 {
+  margin-left: 10px;
+  margin-top: 150px;
+  float: left;
+
+}
+
+.div2 {
+  margin-left: 10px;
+  margin-top: 150px;
+  float: left;
+  padding-right: 160px;
+  padding-left: 200px;
+  margin-right: -160px;
+
+}
+
+h1 {
+  font-size: 70px;
+  color: rgb(170, 98, 10)
+}
+
+h2 {
+  color: rgb(170, 98, 10);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+h4 {
+  color: #084650e0;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+  font-size: 20px;
+}
+
+button {
+  width: 50%;
+  height: 40px;
+  background: linear-gradient(250.54deg, rgba(137, 234, 255, 0.74) 27.45%, rgba(184, 226, 15, 0.579) 79.73%, rgba(232, 221, 20, 0.808) 105.85%);
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+  width: 100px;
+
+}
+
+.topnav .a1:hover {
+  opacity: 0.6;
+}

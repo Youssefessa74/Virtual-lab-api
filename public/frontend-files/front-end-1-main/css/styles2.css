@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(195.54deg, rgba(137, 234, 255, 0.74) -3.45%, rgba(237, 200, 7, 0.31) 77.73%, rgba(133, 118, 4, 0.49) 105.85%);
+  ;
+  height: 100vh;
+
+}
+
+.pass {
+  background-color: rgb(255, 215, 115);
+  border-radius: 16px;
+  padding-right: 15px;
+  
+  margin-left: 0px;
+}
+
+span {
+  color: black;
+  font-size: 30px;
+  background-color: rgb(155, 151, 151);
+  border-radius: 50%;
+}
+
+.par {
+  margin: 20px 0px 0px 55px;
+}
+
+.par2 {
+  margin: 10px 0px 30px 80px;
+}
+
+.btn5 {
+  font-size: 16px;
+  color: #2b2929;
+
+}
+
+.btn2 {
+  width: 70%;
+  height: 45px;
+  background: linear-gradient(orange, rgba(239, 233, 189, 0.756));
+  ;
+  border: none;
+  margin-top: 70px;
+  outline: none;
+  margin-left: 50px;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #373232;
+  font-weight: 600;
+}
+
+.wrapper {
+  width: 520px;
+  height: auto;
+  background: transparent;
+  border: 2px solid black;
+  backdrop-filter: blur(9px);
+  color: rgb(0, 0, 0);
+  border-radius: 12px;
+  padding: 10px 50px;
+  
+}
+
+.wrapper h1 {
+  padding: 20px;
+  font-size: 36px;
+  text-align: center;
+
+}
+
+.arrow {
+  display: inline;
+}
+
+.input {
+  width: 340px;
+  height: 100%;
+  background: transparent;
+  border: 1px solid rgba(17, 17, 17);
+  border-radius: 10px;
+  font-size: 15px;
+  color: #000000;
+  padding: 10px 25px 10px 20px;
+  margin-top: 15px;
+}
+
+.input::placeholder {
+  color: #0000002a;
+  margin-top: 40px;
+}
+
+.code {
+  width: auto;
+  height: 50px;
+  border: transparent 10px solid;
+  margin-left: 35px;
+ 
+}
+
+.code .gen {
+  background-color: rgb(240, 229, 142);
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 30px;
+  height: 30px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 5px solid rgb(243, 202, 127);
+  text-align: center;
+}
+
+.mss {
+  margin-left: 55px;
+}
+
+.center {
+  margin-left: 135px;
+  color: red;
+}
+
+.btm {
+  background-color: aquamarine;
+}
+
+.btn {
+  width: 70%;
+  height: 45px;
+  background: linear-gradient(orange, rgba(239, 233, 189, 0.756));
+  ;
+  border: none;
+  margin: 70px 0px 20px 56px;
+  outline: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(191, 34, 34, 0.1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+}
+
+.create {
+  margin-left: 29px;
+  font-size: 30px;
+}

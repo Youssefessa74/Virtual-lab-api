@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(195.54deg, rgba(137, 234, 255, 0.74) -3.45%, rgba(237, 200, 7, 0.31) 77.73%, rgba(133, 4, 4, 0.49) 105.85%);
+    ;
+    height: 100vh;
+
+  }
+  .arrow{
+    cursor: pointer;
+  }
+  .par{
+    margin-top: 30px;
+  margin-bottom: 30px;
+  }
+  .btn{width: 50%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    margin-top: 50px;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(191, 34, 34, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+ }
+ .btn2{width: 50%;
+  height: 45px;
+  background: #fff;
+  border: none;
+  margin-top: 70px;
+  outline: none;
+  margin-left: 70px;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(191, 34, 34, 0.1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+}
+  .wrapper{
+    width: 420px;
+    height: auto;
+    background: transparent;
+    border: 2px solid black;
+    backdrop-filter: blur(9px);
+    color:brown;
+    border-radius: 12px;
+    padding: 20px 30px;
+  }
+
+  .wrapper h1{padding: 20px;
+    font-size: 36px;
+    text-align: center;
+
+  }
+  .wrapper .input-box{
+    position: relative;
+    width: 70%;
+    height: 50px;
+
+    margin: 30px 0;
+  }
+  .arrow{
+    display: inline;
+  }
+  .input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 1px solid rgba(17, 17, 17, 0.2);
+    border-radius: 20px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 35px 20px 20px;
+  }
+  .input-box input::placeholder{
+    color: #fff;
+
+    margin-top: 40px;
+    padding-left: 20px;
+  }
+
+  .code {
+width: auto;
+height: 50px;
+border: transparent 5px solid;
+  }
+  .code .gen{background-color: beige;
+  margin-left: 20px;
+  margin-right: 20px;
+    width: 30px;
+    height: 30px;
+  }
+  .mss{
+    margin-left: 25px;
+  }
+  .wrapper .btn{
+    width: 50%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    margin-top: 20px;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(191, 34, 34, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    margin-left: 80px;
+  }
+.center{
+  margin-left: 120px;
+}
+.btm{
+  background-color: aquamarine;
+}
+
+.mm{
+
+  margin-left: 25px;
+  font-size: 31px;
+}
+
